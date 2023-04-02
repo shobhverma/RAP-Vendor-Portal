@@ -1,0 +1,5 @@
+CLASS zbp_i_sord_vendor_rap DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_sord_vendor_rap.
+ENDCLASS.
+
+CLASS zbp_i_sord_vendor_rap IMPLEMENTATION.
+ENDCLASS.

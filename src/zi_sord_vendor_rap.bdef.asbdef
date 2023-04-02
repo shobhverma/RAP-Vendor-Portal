@@ -1,0 +1,14 @@
+unmanaged implementation in class zbp_i_sord_vendor_RAP unique;
+define behavior for ZI_SORD_VENDOR_RAP alias Vendor
+//late numbering
+lock master
+//authorization master
+etag LastChangedAt
+{
+  field ( mandatory ) CustomerId, VendorId;
+  create;
+  update;
+
+  delete;
+  action ( features : instance ) set_status result [1] $self;
+}
